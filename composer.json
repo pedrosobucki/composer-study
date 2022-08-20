@@ -7,5 +7,7 @@
             "name": "Pedro Sobucki"
         }
     ],
-    "require": {}
+    "require": {
+        "symfony/css-selector": "^6.1"
+    }
 }
