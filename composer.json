@@ -1,0 +1,11 @@
+{
+    "name": "psobucki/composer-study",
+    "description": "project for retrieving courses data on Alura website",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Pedro Sobucki"
+        }
+    ],
+    "require": {}
+}
