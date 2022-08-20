@@ -7,11 +7,11 @@ use Symfony\Component\DomCrawler\Crawler;
 
 class Searcher
 {
-  
     public function __construct(
-      private ClientInterface $httpClient,
-      private Crawler $crawler
-    ) { }
+        private ClientInterface $httpClient,
+        private Crawler $crawler
+    ) {
+    }
 
     public function search(string $url): array
     {
