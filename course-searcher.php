@@ -1,10 +1,9 @@
 <?php
 
 require 'vendor/autoload.php';
-require 'src/Searcher.php';
 
-use GuzzleHttp\Client;
 use PSobucki\CourseSearcher\Searcher;
+use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
 
 $client = new Client(['base_uri' => 'https://www.alura.com.br/']);
