@@ -37,5 +37,6 @@
         "test": "Runs project's tests",
         "sniffer": "Executes code verification according to PSR12",
         "phan": "Executes Phan code verification"
-    }
+    },
+    "license": "GPL-3.0"
 }
