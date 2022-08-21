@@ -1,3 +1,4 @@
+#!usr/bin/src php
 <?php
 
 require 'vendor/autoload.php';
