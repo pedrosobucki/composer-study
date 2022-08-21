@@ -25,6 +25,17 @@
     "scripts": {
         "test": "phpunit tests/TestCourseSearcher.php",
         "sniffer": "phpcs --standard=PSR12 src/",
-        "phan": "phan --color --allow-polyfill-parser"
+        "phan": "phan --color --allow-polyfill-parser",
+        "check": [
+            "@test",
+            "@sniffer",
+            "@phan"
+        ]
+    },
+    "scripts-descriptions": {
+        "check": "Executes code verifications for 'test', 'sniffer', and 'phan'",
+        "test": "Runs project's tests",
+        "sniffer": "Executes code verification according to PSR12",
+        "phan": "Executes Phan code verification"
     }
 }
